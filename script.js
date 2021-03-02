@@ -1,17 +1,19 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+
+
 function generatePassword() {
     var strength = 0;
     var lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
     var upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var numbers = "1234567890";
-    var specialCharacters = "!@£$%^&*()¿?";
+    var specialCharacters = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
     var characterOptionsForFinalPassword = "";
     var finalPassword = "";
 
-    var userWantsStrength = confirm("How many characters would you like in your password?")
+    var userWantsStrength = window.prompt("How many characters would you like in your password?")
     var userWantsUpperLetters = confirm("Would you like Upper Case Letters in your password?")
     var userWantsLowerLetters = confirm("Would you like Lower Case Letters in your password?")
     var userWantsNumbers = confirm("Would you like Upper Case Letters in your password?")
