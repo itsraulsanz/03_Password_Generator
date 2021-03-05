@@ -46,10 +46,10 @@ function generatePassword() {
     }
 
     for (var i = 0; i < userLength; i++) {
-        password += characterOptionsForFinalPassword.charAt(Math.floor(Math.random() * characterOptionsForFinalPassword.length));
+        finalPassword += characterOptionsForFinalPassword.charAt(Math.floor(Math.random() * characterOptionsForFinalPassword.length));
     }
 
-    return characterOptionsForFinalPassword;
+    return finalPassword;
     return "Congrats new password is here!"
 }
 
