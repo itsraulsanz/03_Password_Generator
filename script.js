@@ -45,10 +45,11 @@ function generatePassword() {
         characterOptionsForFinalPassword += specialCharacters;
     }
 
-
+    for (var i = 0; i < userLength; i++) {
+        password += characterOptionsForFinalPassword.charAt(Math.floor(Math.random() * characterOptionsForFinalPassword.length));
+    }
 
     return characterOptionsForFinalPassword;
-
     return "Congrats new password is here!"
 }
 
