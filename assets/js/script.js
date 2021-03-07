@@ -49,13 +49,18 @@ function generatePassword() {
         characterOptionsForFinalPassword += specialCharacters;
     }
 
+    // Alert message when user doesn't select any criteria
+    if (userLowerLetters == false && userUpperLetters == false && userNumbers == false && userSpecialCharacters == false) {
+        alert("At least one character type should be selected");
+        return "";
+    }
+
     // Get a random password following the requirements above
     for (var i = 0; i < userLength; i++) {
         finalPassword += characterOptionsForFinalPassword.charAt(Math.floor(Math.random() * characterOptionsForFinalPassword.length));
     }
 
     return finalPassword;
-    return "Congrats new password is here!";
 }
 
 
