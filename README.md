@@ -28,4 +28,4 @@ User clicks the button
 
 Website URL: <a href="https://itsraulsanz.github.io/password-generator/">https://itsraulsanz.github.io/password-generator/</a>
 
-<img src="./assets/images/screenshot.png" style="width: 700px;">
+<img src="./assets/images/screenshot.jpg" style="width: 700px;">
