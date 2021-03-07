@@ -7,7 +7,7 @@ This repository contains a modified starter code to create an application to gen
 
 ## Mockup
 
-<img src="assets/images/mockup.png" style="width: 500px;">
+<img src="./assets/images/mockup.png" style="width: 500px;">
 
 ## Pseudo Code
 
@@ -28,4 +28,4 @@ User clicks the button
 
 Website URL: <a href="https://itsraulsanz.github.io/password-generator/">https://itsraulsanz.github.io/password-generator/</a>
 
-<img src="assets/images/screenshot.png" style="width: 700px;">
+<img src="./assets/images/screenshot.png" style="width: 700px;">
